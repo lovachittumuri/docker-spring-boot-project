@@ -1,0 +1,29 @@
+ docker images
+ docker rmi 5e28ba2b4cdb
+ 
+ 
+
+docker image build --tag test:latest --file D:\Workspace_STS\docker-spring-boot-project\Dockerfile D:\DockerImages
+
+docker build -t test:latest
+
+Latest : 
+
+--------------------------------------------
+
+
+docker images
+docker rmi 5e28ba2b4cdb
+
+docker login -u  
+ 
+docker build -t docker-demo .
+docker tag docker-demo playdockerdemo/docker-demo
+docker push playdockerdemo/docker-demo
+
+docker run -d -p 9090:9090 playdockerdemo/docker-demo
+
+or 
+
+docker run -d -p 9090:9090 docker-demo
+--------------------------------------------------
